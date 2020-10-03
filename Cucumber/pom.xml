@@ -11,6 +11,8 @@
   <url>http://maven.apache.org</url>
 
   <properties>
+  <jre.level>1.8</jre.level>
+      <jdk.level>1.8</jdk.level>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 <build>
@@ -35,7 +37,7 @@
               <suiteXmlFile>patienttests.xml</suiteXmlFile>
                </suiteXmlFiles>
                <systemPropertyVariables>
-                  <browserName>chrome</browserName>
+                  <browserName>firefox</browserName>
                </systemPropertyVariables>
             </configuration>
          </plugin>
