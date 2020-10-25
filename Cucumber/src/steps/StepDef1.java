@@ -1,6 +1,6 @@
 package steps;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
